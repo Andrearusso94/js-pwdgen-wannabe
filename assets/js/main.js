@@ -14,3 +14,8 @@ const color = prompt ('Il tuo colore preferito?')
 
 let myPassword = myName + secondName + color;
 console.log('Ciao questa è la tua password:'+ myPassword)
+
+/*password in html*/
+
+let myMessage = `Ciao questa è la tua password: ${myPassword}`
+document.getElementById("message").innerHTML = myMessage
