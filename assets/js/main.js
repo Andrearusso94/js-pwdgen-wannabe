@@ -13,3 +13,4 @@ const color = prompt ('Il tuo colore preferito?')
 /*risultato password*/
 
 let myPassword = myName + secondName + color;
+console.log('Ciao questa è la tua password:'+ myPassword)
