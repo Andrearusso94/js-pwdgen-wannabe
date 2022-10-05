@@ -9,3 +9,7 @@ const secondName = prompt('Il tuo cognome?')
 /*il mio colore preferito*/
 
 const color = prompt ('Il tuo colore preferito?')
+
+/*risultato password*/
+
+let myPassword = myName + secondName + color;
