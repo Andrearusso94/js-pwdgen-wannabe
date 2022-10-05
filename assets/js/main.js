@@ -10,9 +10,12 @@ const secondName = prompt('Il tuo cognome?')
 
 const color = prompt ('Il tuo colore preferito?')
 
+/*anno corrente */
+const thisYear = '22'
+
 /*risultato password*/
 
-let myPassword = myName + secondName + color;
+let myPassword = myName + secondName + color + thisYear;
 console.log('Ciao questa è la tua password:'+ myPassword)
 
 /*password in html*/
